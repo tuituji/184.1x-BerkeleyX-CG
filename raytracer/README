@@ -1,0 +1,13 @@
+A simple raytracer. Still many work left to do. 
+By tuituji
+
+Build
+1 install flex and bison. Under fedora run "yum install flex-devel bison-devel"
+2 run "make clean; make"
+
+Run
+ ./raytracer scene1.txt
+
+Output
+ out.ppm
+
