@@ -1,0 +1,697 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AMBIENT	test.flex.cc	/^     AMBIENT = 260,$/;"	e	enum:yytokentype	file:
+AMBIENT	test.yy.cc	/^     AMBIENT = 260,$/;"	e	enum:yytokentype	file:
+AMBIENT	test.yy.hh	/^     AMBIENT = 260,$/;"	e	enum:yytokentype
+BBox	bbox.h	/^    BBox() {  };$/;"	f	class:BBox
+BBox	bbox.h	/^    BBox(const Vector& a, const Vector& b) {$/;"	f	class:BBox
+BBox	bbox.h	/^class BBox { $/;"	c
+BEGIN	test.flex.cc	126;"	d	file:
+BVH	bvh.cpp	/^BVH::BVH(ShapeVec& shapes)$/;"	f	class:BVH
+BVH	bvh.h	/^	BVH(BVH *bvh1, BVH *bvh2, const BBox& box) {$/;"	f	class:BVH
+BVH	bvh.h	/^	BVH(Shape *shape) {$/;"	f	class:BVH
+BVH	bvh.h	/^	BVH(Shape *shape1, Shape *shape2) {$/;"	f	class:BVH
+BVH	bvh.h	/^class BVH $/;"	c
+CAMERA	test.flex.cc	/^     CAMERA = 259,$/;"	e	enum:yytokentype	file:
+CAMERA	test.yy.cc	/^     CAMERA = 259,$/;"	e	enum:yytokentype	file:
+CAMERA	test.yy.hh	/^     CAMERA = 259,$/;"	e	enum:yytokentype
+CC	Makefile	/^CC 	= g++$/;"	m
+CCFLAGS	Makefile	/^CCFLAGS =  -g3 -Wall # -O3 $/;"	m
+COMMENT	test.flex.cc	565;"	d	file:
+Camera	camera.h	/^	Camera(Point p, Point lookat , Vector u, float f, int width, int height):$/;"	f	class:Camera
+Camera	camera.h	/^class Camera {$/;"	c
+Color	material.h	/^	Color() { r = g = b = 0.0; }$/;"	f	class:Color
+Color	material.h	/^	Color(float rr, float gg, float bb): r(rr), g(gg), b(bb) { };$/;"	f	class:Color
+Color	material.h	/^class Color {$/;"	c
+DIFFUSE	test.flex.cc	/^     DIFFUSE = 263,$/;"	e	enum:yytokentype	file:
+DIFFUSE	test.yy.cc	/^     DIFFUSE = 263,$/;"	e	enum:yytokentype	file:
+DIFFUSE	test.yy.hh	/^     DIFFUSE = 263,$/;"	e	enum:yytokentype
+DIRECTIONAL	test.flex.cc	/^     DIRECTIONAL = 261,$/;"	e	enum:yytokentype	file:
+DIRECTIONAL	test.yy.cc	/^     DIRECTIONAL = 261,$/;"	e	enum:yytokentype	file:
+DIRECTIONAL	test.yy.hh	/^     DIRECTIONAL = 261,$/;"	e	enum:yytokentype
+DirectionalLIGHT	light.h	/^enum Type { PointLIGHT,  DirectionalLIGHT };$/;"	e	enum:Type
+DirectionalLight	light.h	/^	DirectionalLight(Type t, Vector v, Color c): Light(t, c), dir(v) {$/;"	f	class:DirectionalLight
+DirectionalLight	light.h	/^class DirectionalLight : public Light {$/;"	c
+ECHO	test.flex.cc	654;"	d	file:
+EMISSION	test.flex.cc	/^     EMISSION = 277,$/;"	e	enum:yytokentype	file:
+EMISSION	test.yy.cc	/^     EMISSION = 277,$/;"	e	enum:yytokentype	file:
+EMISSION	test.yy.hh	/^     EMISSION = 277,$/;"	e	enum:yytokentype
+EOB_ACT_CONTINUE_SCAN	test.flex.cc	166;"	d	file:
+EOB_ACT_END_OF_FILE	test.flex.cc	167;"	d	file:
+EOB_ACT_LAST_MATCH	test.flex.cc	168;"	d	file:
+EXIT_SUCCESS	test.yy.cc	310;"	d	file:
+EXIT_SUCCESS	test.yy.cc	338;"	d	file:
+FLEXINT_H	test.flex.cc	30;"	d	file:
+FLEX_BETA	test.flex.cc	14;"	d	file:
+FLEX_SCANNER	test.flex.cc	9;"	d	file:
+Film	scene.h	/^	Film() : width(400), height(300) { } ;$/;"	f	class:Film
+Film	scene.h	/^	Film(int w, int h): width(w), height(h) { $/;"	f	class:Film
+Film	scene.h	/^class Film {$/;"	c
+HitRecord	shape.h	/^	HitRecord() : pos(), normal(), t(INF), obj(NULL) { };$/;"	f	class:HitRecord
+HitRecord	shape.h	/^class HitRecord {$/;"	c
+INCL	test.flex.cc	566;"	d	file:
+INCL_FILE	test.flex.cc	567;"	d	file:
+INF	geometry.h	15;"	d
+INF	shape.h	39;"	d
+INITIAL	test.flex.cc	563;"	d	file:
+INT16_MAX	test.flex.cc	72;"	d	file:
+INT16_MIN	test.flex.cc	63;"	d	file:
+INT32_MAX	test.flex.cc	75;"	d	file:
+INT32_MIN	test.flex.cc	66;"	d	file:
+INT8_MAX	test.flex.cc	69;"	d	file:
+INT8_MIN	test.flex.cc	60;"	d	file:
+Intersect	scene.cpp	/^bool Scene::Intersect(const Ray &ray,  HitRecord& record)$/;"	f	class:Scene
+Inverse	geometry.h	/^inline Matrix4x4 Matrix4x4::Inverse() const$/;"	f	class:Matrix4x4
+LDFLAGS	Makefile	/^LDFLAGS = -ll$/;"	m
+Length	geometry.h	/^	float Length() const { return sqrtf(LengthSquared()); }$/;"	f	class:Vector
+LengthSquared	geometry.h	/^	float LengthSquared() const { return x*x + y*y + z*z; }$/;"	f	class:Vector
+Light	light.h	/^	Light(Type t,const Color& c): type(t), col(c) { };$/;"	f	class:Light
+Light	light.h	/^class Light {$/;"	c
+LoadIdentity	geometry.h	/^	void LoadIdentity() {$/;"	f	class:MatrixStack
+MAXDEPTH	test.flex.cc	/^     MAXDEPTH = 279,$/;"	e	enum:yytokentype	file:
+MAXDEPTH	test.yy.cc	/^     MAXDEPTH = 279,$/;"	e	enum:yytokentype	file:
+MAXDEPTH	test.yy.hh	/^     MAXDEPTH = 279,$/;"	e	enum:yytokentype
+MAXVERTS	test.flex.cc	/^     MAXVERTS = 265,$/;"	e	enum:yytokentype	file:
+MAXVERTS	test.yy.cc	/^     MAXVERTS = 265,$/;"	e	enum:yytokentype	file:
+MAXVERTS	test.yy.hh	/^     MAXVERTS = 265,$/;"	e	enum:yytokentype
+Material	material.h	/^	Material(): ambient(), diffuse(), specular(), $/;"	f	class:Material
+Material	material.h	/^class Material {$/;"	c
+Matrix4x4	geometry.h	/^	Matrix4x4(const Matrix4x4 &m) {$/;"	f	class:Matrix4x4
+Matrix4x4	geometry.h	/^	Matrix4x4(const float f = 1.0) {$/;"	f	class:Matrix4x4
+Matrix4x4	geometry.h	/^	Matrix4x4(float *value) {$/;"	f	class:Matrix4x4
+Matrix4x4	geometry.h	/^class Matrix4x4{$/;"	c
+MatrixStack	geometry.h	/^	MatrixStack() {$/;"	f	class:MatrixStack
+MatrixStack	geometry.h	/^class MatrixStack {$/;"	c
+Mesh	mesh.h	/^	Mesh(Scene *s): scene_ptr(s) { };$/;"	f	class:Mesh
+Mesh	mesh.h	/^class Mesh : public Shape {$/;"	c
+NUM	test.flex.cc	/^     NUM = 281$/;"	e	enum:yytokentype	file:
+NUM	test.yy.cc	/^     NUM = 281$/;"	e	enum:yytokentype	file:
+NUM	test.yy.hh	/^     NUM = 281$/;"	e	enum:yytokentype
+Normal	geometry.h	/^	Normal () { x = y = z = 0.0; }$/;"	f	class:Normal
+Normal	geometry.h	/^	Normal (float xi, float yi, float zi)	 {$/;"	f	class:Normal
+Normal	geometry.h	/^class Normal {$/;"	c
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+ONB	geometry.h	/^	ONB(): U(), V(), W() { };$/;"	f	class:ONB
+ONB	geometry.h	/^	ONB(const Vector &a, const Vector &b, const Vector &c)$/;"	f	class:ONB
+ONB	geometry.h	/^class ONB {$/;"	c
+OUTFILE	test.flex.cc	/^     OUTFILE = 280,$/;"	e	enum:yytokentype	file:
+OUTFILE	test.yy.cc	/^     OUTFILE = 280,$/;"	e	enum:yytokentype	file:
+OUTFILE	test.yy.hh	/^     OUTFILE = 280,$/;"	e	enum:yytokentype
+OUTPUT	test.flex.cc	/^     OUTPUT = 278,$/;"	e	enum:yytokentype	file:
+OUTPUT	test.yy.cc	/^     OUTPUT = 278,$/;"	e	enum:yytokentype	file:
+OUTPUT	test.yy.hh	/^     OUTPUT = 278,$/;"	e	enum:yytokentype
+PI	geometry.h	10;"	d
+PLANE	test.flex.cc	/^     PLANE = 271,$/;"	e	enum:yytokentype	file:
+PLANE	test.yy.cc	/^     PLANE = 271,$/;"	e	enum:yytokentype	file:
+PLANE	test.yy.hh	/^     PLANE = 271,$/;"	e	enum:yytokentype
+POINT	test.flex.cc	/^     POINT = 262,$/;"	e	enum:yytokentype	file:
+POINT	test.yy.cc	/^     POINT = 262,$/;"	e	enum:yytokentype	file:
+POINT	test.yy.hh	/^     POINT = 262,$/;"	e	enum:yytokentype
+POP	test.flex.cc	/^     POP = 272,$/;"	e	enum:yytokentype	file:
+POP	test.yy.cc	/^     POP = 272,$/;"	e	enum:yytokentype	file:
+POP	test.yy.hh	/^     POP = 272,$/;"	e	enum:yytokentype
+PROG	Makefile	/^PROG = raytracer$/;"	m
+PUSH	test.flex.cc	/^     PUSH = 273,$/;"	e	enum:yytokentype	file:
+PUSH	test.yy.cc	/^     PUSH = 273,$/;"	e	enum:yytokentype	file:
+PUSH	test.yy.hh	/^     PUSH = 273,$/;"	e	enum:yytokentype
+Plane	shape.h	/^	Plane(Vector n, float d): normal(n), distance(d) {$/;"	f	class:Plane
+Plane	shape.h	/^class Plane : public Shape {$/;"	c
+Point	geometry.h	/^	Point() { x = y = z = 0.0;}$/;"	f	class:Point
+Point	geometry.h	/^	Point(const Point &p) : x(p.x), y(p.y), z(p.z) { };$/;"	f	class:Point
+Point	geometry.h	/^	Point(const Vector &v): x(v.x), y(v.y), z(v.z) { };$/;"	f	class:Point
+Point	geometry.h	/^	Point(float xi, float yi, float zi) : x(xi), y(yi), z(zi) { };$/;"	f	class:Point
+Point	geometry.h	/^class Point {$/;"	c
+PointLIGHT	light.h	/^enum Type { PointLIGHT,  DirectionalLIGHT };$/;"	e	enum:Type
+PointLight	light.h	/^	PointLight(Type t, Point p, Color c) : Light(t, c), pos(p) {  };$/;"	f	class:PointLight
+PointLight	light.h	/^class PointLight: public Light {$/;"	c
+Pop	geometry.h	/^	void Pop(void) {  mStack.pop(); }$/;"	f	class:MatrixStack
+Primitive	primitive.h	/^	Primitive(Shape *s): shape(s) { };$/;"	f	class:Primitive
+Primitive	primitive.h	/^class Primitive {$/;"	c
+Push	matrixStack.cpp	/^void MatrixStack::Push()$/;"	f	class:MatrixStack
+REFLECT	test.flex.cc	/^     REFLECT = 270,$/;"	e	enum:yytokentype	file:
+REFLECT	test.yy.cc	/^     REFLECT = 270,$/;"	e	enum:yytokentype	file:
+REFLECT	test.yy.hh	/^     REFLECT = 270,$/;"	e	enum:yytokentype
+REJECT	test.flex.cc	548;"	d	file:
+ROTATE	test.flex.cc	/^     ROTATE = 276,$/;"	e	enum:yytokentype	file:
+ROTATE	test.yy.cc	/^     ROTATE = 276,$/;"	e	enum:yytokentype	file:
+ROTATE	test.yy.hh	/^     ROTATE = 276,$/;"	e	enum:yytokentype
+Radiance	scene.cpp	/^Color Scene::Radiance(Ray &ray, int depth)$/;"	f	class:Scene
+Ray	ray.h	/^    Ray() : pos(), dir(){ } ;$/;"	f	class:Ray
+Ray	ray.h	/^    Ray(const Point &p, const Vector &d): pos(p), dir(d) {$/;"	f	class:Ray
+Ray	ray.h	/^class Ray {$/;"	c
+RayTracer	raytracer.h	/^	RayTracer(char *filename):input(filename) { $/;"	f	class:RayTracer
+RayTracer	raytracer.h	/^class RayTracer {$/;"	c
+Rotate	matrixStack.cpp	/^void MatrixStack::Rotate(float x, float y, float z, float alpha)$/;"	f	class:MatrixStack
+SCALE	test.flex.cc	/^     SCALE = 274,$/;"	e	enum:yytokentype	file:
+SCALE	test.yy.cc	/^     SCALE = 274,$/;"	e	enum:yytokentype	file:
+SCALE	test.yy.hh	/^     SCALE = 274,$/;"	e	enum:yytokentype
+SHINESS	test.flex.cc	/^     SHINESS = 269,$/;"	e	enum:yytokentype	file:
+SHINESS	test.yy.cc	/^     SHINESS = 269,$/;"	e	enum:yytokentype	file:
+SHINESS	test.yy.hh	/^     SHINESS = 269,$/;"	e	enum:yytokentype
+SIZE	test.flex.cc	/^     SIZE = 258,$/;"	e	enum:yytokentype	file:
+SIZE	test.yy.cc	/^     SIZE = 258,$/;"	e	enum:yytokentype	file:
+SIZE	test.yy.hh	/^     SIZE = 258,$/;"	e	enum:yytokentype
+SPECULAR	test.flex.cc	/^     SPECULAR = 264,$/;"	e	enum:yytokentype	file:
+SPECULAR	test.yy.cc	/^     SPECULAR = 264,$/;"	e	enum:yytokentype	file:
+SPECULAR	test.yy.hh	/^     SPECULAR = 264,$/;"	e	enum:yytokentype
+SPHERE	test.flex.cc	/^     SPHERE = 268,$/;"	e	enum:yytokentype	file:
+SPHERE	test.yy.cc	/^     SPHERE = 268,$/;"	e	enum:yytokentype	file:
+SPHERE	test.yy.hh	/^     SPHERE = 268,$/;"	e	enum:yytokentype
+SRCDIR	Makefile	/^SRCDIR = .\/$/;"	m
+SRCS	Makefile	/^SRCS =  $(wildcard $(SRCDIR)\/*.cpp)$/;"	m
+STR	test.flex.cc	564;"	d	file:
+Scale	matrixStack.cpp	/^void MatrixStack::Scale(float x, float y, float z)$/;"	f	class:MatrixStack
+Scene	scene.h	/^class Scene {$/;"	c
+Shape	shape.h	/^class Shape {$/;"	c
+ShapeVec	bvh.h	/^typedef vector<Shape*> ShapeVec;$/;"	t
+Sphere	shape.h	/^	Sphere(const Point& p, float r) : center(p), radius(r) { };$/;"	f	class:Sphere
+Sphere	shape.h	/^class Sphere : public Shape {$/;"	c
+TRANSLATE	test.flex.cc	/^     TRANSLATE = 275,$/;"	e	enum:yytokentype	file:
+TRANSLATE	test.yy.cc	/^     TRANSLATE = 275,$/;"	e	enum:yytokentype	file:
+TRANSLATE	test.yy.hh	/^     TRANSLATE = 275,$/;"	e	enum:yytokentype
+TRI	test.flex.cc	/^     TRI = 267,$/;"	e	enum:yytokentype	file:
+TRI	test.yy.cc	/^     TRI = 267,$/;"	e	enum:yytokentype	file:
+TRI	test.yy.hh	/^     TRI = 267,$/;"	e	enum:yytokentype
+Top	geometry.h	/^	Matrix4x4& Top() { return  mStack.top(); }$/;"	f	class:MatrixStack
+Translate	matrixStack.cpp	/^void MatrixStack::Translate(float x, float y, float z) $/;"	f	class:MatrixStack
+Transpose	geometry.h	/^inline Matrix4x4 Matrix4x4::Transpose() const $/;"	f	class:Matrix4x4
+Triangle	mesh.h	/^	Triangle(int id0, int id1, int id2, Mesh *m_ptr) {$/;"	f	class:Triangle
+Triangle	mesh.h	/^class Triangle: public Shape {$/;"	c
+Type	light.h	/^enum Type { PointLIGHT,  DirectionalLIGHT };$/;"	g
+U	geometry.h	/^	Vector U, V, W;$/;"	m	class:ONB
+UINT16_MAX	test.flex.cc	81;"	d	file:
+UINT32_MAX	test.flex.cc	84;"	d	file:
+UINT8_MAX	test.flex.cc	78;"	d	file:
+V	geometry.h	/^	Vector U, V, W;$/;"	m	class:ONB
+VERTEX	test.flex.cc	/^     VERTEX = 266,$/;"	e	enum:yytokentype	file:
+VERTEX	test.yy.cc	/^     VERTEX = 266,$/;"	e	enum:yytokentype	file:
+VERTEX	test.yy.hh	/^     VERTEX = 266,$/;"	e	enum:yytokentype
+Vec3f	scene.h	/^typedef float Vec3f[3];$/;"	t
+Vector	geometry.h	/^	Vector() { x = y = z = 0.0; }$/;"	f	class:Vector
+Vector	geometry.h	/^	Vector(const Vector &v) { x = v.x; y = v.y; z = v.z; }$/;"	f	class:Vector
+Vector	geometry.h	/^	Vector(float xi, float yi, float zi) : x(xi), y(yi), z(zi) { };$/;"	f	class:Vector
+Vector	geometry.h	/^class Vector {$/;"	c
+Vector	geometry.h	/^inline Vector::Vector(const Point &p)$/;"	f	class:Vector
+W	geometry.h	/^	Vector U, V, W;$/;"	m	class:ONB
+X	mesh.cpp	6;"	d	file:
+Y	mesh.cpp	7;"	d	file:
+YYABORT	test.yy.cc	661;"	d	file:
+YYACCEPT	test.yy.cc	660;"	d	file:
+YYBACKUP	test.yy.cc	682;"	d	file:
+YYBISON	test.yy.cc	44;"	d	file:
+YYBISON_VERSION	test.yy.cc	47;"	d	file:
+YYCASE_	test.yy.cc	1118;"	d	file:
+YYCASE_	test.yy.cc	1128;"	d	file:
+YYCOPY	test.yy.cc	404;"	d	file:
+YYCOPY	test.yy.cc	407;"	d	file:
+YYCOPY_NEEDED	test.yy.cc	379;"	d	file:
+YYDEBUG	test.flex.cc	2021;"	d	file:
+YYDEBUG	test.yy.cc	123;"	d	file:
+YYDEBUG	test.yy.hh	37;"	d
+YYDPRINTF	test.yy.cc	754;"	d	file:
+YYDPRINTF	test.yy.cc	905;"	d	file:
+YYEMPTY	test.yy.cc	657;"	d	file:
+YYEOF	test.yy.cc	658;"	d	file:
+YYERRCODE	test.yy.cc	701;"	d	file:
+YYERROR	test.yy.cc	662;"	d	file:
+YYERROR_VERBOSE	test.yy.cc	111;"	d	file:
+YYERROR_VERBOSE	test.yy.cc	112;"	d	file:
+YYERROR_VERBOSE	test.yy.cc	114;"	d	file:
+YYFAIL	test.yy.cc	672;"	d	file:
+YYFINAL	test.yy.cc	420;"	d	file:
+YYFPRINTF	test.yy.cc	751;"	d	file:
+YYFREE	test.yy.cc	349;"	d	file:
+YYID	test.yy.cc	/^YYID (int yyi)$/;"	f	file:
+YYID	test.yy.cc	272;"	d	file:
+YYINITDEPTH	test.yy.cc	914;"	d	file:
+YYLAST	test.yy.cc	422;"	d	file:
+YYLEX	test.yy.cc	741;"	d	file:
+YYLEX	test.yy.cc	743;"	d	file:
+YYLLOC_DEFAULT	test.yy.cc	708;"	d	file:
+YYLVAL_INITIALIZE	test.yy.cc	1206;"	d	file:
+YYMALLOC	test.yy.cc	342;"	d	file:
+YYMAXDEPTH	test.yy.cc	925;"	d	file:
+YYMAXUTOK	test.yy.cc	435;"	d	file:
+YYNNTS	test.yy.cc	427;"	d	file:
+YYNRULES	test.yy.cc	429;"	d	file:
+YYNSTATES	test.yy.cc	431;"	d	file:
+YYNTOKENS	test.yy.cc	425;"	d	file:
+YYPACT_NINF	test.yy.cc	576;"	d	file:
+YYPOPSTACK	test.yy.cc	1284;"	d	file:
+YYPULL	test.yy.cc	59;"	d	file:
+YYPURE	test.yy.cc	53;"	d	file:
+YYPUSH	test.yy.cc	56;"	d	file:
+YYRECOVERING	test.yy.cc	680;"	d	file:
+YYRHSLOC	test.yy.cc	727;"	d	file:
+YYSIZE_MAXIMUM	test.yy.cc	249;"	d	file:
+YYSIZE_T	test.yy.cc	237;"	d	file:
+YYSIZE_T	test.yy.cc	239;"	d	file:
+YYSIZE_T	test.yy.cc	243;"	d	file:
+YYSIZE_T	test.yy.cc	245;"	d	file:
+YYSKELETON_NAME	test.yy.cc	50;"	d	file:
+YYSTACK_ALLOC	test.yy.cc	295;"	d	file:
+YYSTACK_ALLOC	test.yy.cc	299;"	d	file:
+YYSTACK_ALLOC	test.yy.cc	304;"	d	file:
+YYSTACK_ALLOC	test.yy.cc	328;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	test.yy.cc	325;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	test.yy.cc	331;"	d	file:
+YYSTACK_BYTES	test.yy.cc	375;"	d	file:
+YYSTACK_FREE	test.yy.cc	319;"	d	file:
+YYSTACK_FREE	test.yy.cc	329;"	d	file:
+YYSTACK_GAP_MAXIMUM	test.yy.cc	371;"	d	file:
+YYSTACK_RELOCATE	test.yy.cc	386;"	d	file:
+YYSTATE	test.flex.cc	133;"	d	file:
+YYSTYPE	test.flex.cc	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE	test.flex.cc	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	test.yy.cc	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE	test.yy.cc	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	test.yy.hh	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	test.yy.hh	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	test.flex.cc	2076;"	d	file:
+YYSTYPE_IS_DECLARED	test.yy.cc	178;"	d	file:
+YYSTYPE_IS_DECLARED	test.yy.hh	92;"	d
+YYSTYPE_IS_TRIVIAL	test.flex.cc	2074;"	d	file:
+YYSTYPE_IS_TRIVIAL	test.yy.cc	176;"	d	file:
+YYSTYPE_IS_TRIVIAL	test.yy.hh	90;"	d
+YYTABLES_NAME	test.flex.cc	1979;"	d	file:
+YYTABLE_NINF	test.yy.cc	600;"	d	file:
+YYTERROR	test.yy.cc	700;"	d	file:
+YYTOKENTYPE	test.flex.cc	2029;"	d	file:
+YYTOKENTYPE	test.yy.cc	131;"	d	file:
+YYTOKENTYPE	test.yy.hh	45;"	d
+YYTRANSLATE	test.yy.cc	437;"	d	file:
+YYUNDEFTOK	test.yy.cc	434;"	d	file:
+YYUSE	test.yy.cc	265;"	d	file:
+YYUSE	test.yy.cc	267;"	d	file:
+YY_	test.yy.cc	255;"	d	file:
+YY_	test.yy.cc	259;"	d	file:
+YY_AT_BOL	test.flex.cc	332;"	d	file:
+YY_BREAK	test.flex.cc	733;"	d	file:
+YY_BUFFER_EOF_PENDING	test.flex.cc	248;"	d	file:
+YY_BUFFER_NEW	test.flex.cc	236;"	d	file:
+YY_BUFFER_NORMAL	test.flex.cc	237;"	d	file:
+YY_BUFFER_STATE	test.flex.cc	/^typedef struct yy_buffer_state *YY_BUFFER_STATE;$/;"	t	typeref:struct:yy_buffer_state	file:
+YY_BUF_SIZE	test.flex.cc	145;"	d	file:
+YY_CHAR	test.flex.cc	/^typedef unsigned char YY_CHAR;$/;"	t	file:
+YY_CURRENT_BUFFER	test.flex.cc	264;"	d	file:
+YY_CURRENT_BUFFER_LVALUE	test.flex.cc	271;"	d	file:
+YY_DECL	test.flex.cc	721;"	d	file:
+YY_DECL_IS_OURS	test.flex.cc	717;"	d	file:
+YY_DO_BEFORE_ACTION	test.flex.cc	357;"	d	file:
+YY_END_OF_BUFFER	test.flex.cc	365;"	d	file:
+YY_END_OF_BUFFER_CHAR	test.flex.cc	141;"	d	file:
+YY_EXIT_FAILURE	test.flex.cc	1777;"	d	file:
+YY_EXTRA_TYPE	test.flex.cc	578;"	d	file:
+YY_FATAL_ERROR	test.flex.cc	708;"	d	file:
+YY_FLEX_MAJOR_VERSION	test.flex.cc	10;"	d	file:
+YY_FLEX_MINOR_VERSION	test.flex.cc	11;"	d	file:
+YY_FLEX_SUBMINOR_VERSION	test.flex.cc	12;"	d	file:
+YY_FLUSH_BUFFER	test.flex.cc	300;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_BEGIN	test.yy.cc	1209;"	d	file:
+YY_IGNORE_MAYBE_UNINITIALIZED_END	test.yy.cc	1210;"	d	file:
+YY_INPUT	test.flex.cc	661;"	d	file:
+YY_INT_ALIGNED	test.flex.cc	5;"	d	file:
+YY_LESS_LINENO	test.flex.cc	170;"	d	file:
+YY_LOCATION_PRINT	test.yy.cc	734;"	d	file:
+YY_MORE_ADJ	test.flex.cc	550;"	d	file:
+YY_NEW_FILE	test.flex.cc	139;"	d	file:
+YY_NULL	test.flex.cc	113;"	d	file:
+YY_NULL	test.yy.cc	103;"	d	file:
+YY_NULL	test.yy.cc	105;"	d	file:
+YY_NUM_RULES	test.flex.cc	364;"	d	file:
+YY_READ_BUF_SIZE	test.flex.cc	646;"	d	file:
+YY_REDUCE_PRINT	test.yy.cc	895;"	d	file:
+YY_REDUCE_PRINT	test.yy.cc	908;"	d	file:
+YY_RESTORE_YY_MORE_OFFSET	test.flex.cc	551;"	d	file:
+YY_RULE_SETUP	test.flex.cc	736;"	d	file:
+YY_SC_TO_UI	test.flex.cc	120;"	d	file:
+YY_STACK_PRINT	test.yy.cc	857;"	d	file:
+YY_STACK_PRINT	test.yy.cc	907;"	d	file:
+YY_START	test.flex.cc	132;"	d	file:
+YY_START_STACK_INCR	test.flex.cc	703;"	d	file:
+YY_STATE_BUF_SIZE	test.flex.cc	150;"	d	file:
+YY_STATE_EOF	test.flex.cc	136;"	d	file:
+YY_STRUCT_YY_BUFFER_STATE	test.flex.cc	189;"	d	file:
+YY_SYMBOL_PRINT	test.yy.cc	760;"	d	file:
+YY_SYMBOL_PRINT	test.yy.cc	906;"	d	file:
+YY_TYPEDEF_YY_BUFFER_STATE	test.flex.cc	153;"	d	file:
+YY_TYPEDEF_YY_SIZE_T	test.flex.cc	158;"	d	file:
+YY_USER_ACTION	test.flex.cc	728;"	d	file:
+YY_USE_CONST	test.flex.cc	101;"	d	file:
+YY_USE_CONST	test.flex.cc	94;"	d	file:
+YY_YY_TEST_YY_HH_INCLUDED	test.flex.cc	2018;"	d	file:
+YY_YY_TEST_YY_HH_INCLUDED	test.yy.cc	120;"	d	file:
+YY_YY_TEST_YY_HH_INCLUDED	test.yy.hh	34;"	d
+Z	mesh.cpp	8;"	d	file:
+_BBOX_H	bbox.h	3;"	d
+_BVH_H	bvh.h	2;"	d
+_CAMERA_H	camera.h	2;"	d
+_GEOMETRY_H	geometry.h	2;"	d
+_LIGHT_H	light.h	2;"	d
+_MATERIAL_H	material.h	2;"	d
+_MESH_H	mesh.h	2;"	d
+_PRIMITIVE_H	primitive.h	2;"	d
+_RAYTRACER_H	raytracer.h	2;"	d
+_RAY_H	ray.h	2;"	d
+_SCENE_H	scene.h	2;"	d
+_SHAPE_H	shape.h	2;"	d
+__STDC_LIMIT_MACROS	test.flex.cc	40;"	d	file:
+across	camera.h	/^	Vector across;$/;"	m	class:Camera
+addShape	scene.h	/^	void addShape(Shape* s) {  shapes.push_back(s);  }$/;"	f	class:Scene
+alloca	test.yy.cc	302;"	d	file:
+ambient	material.h	/^	Color ambient;$/;"	m	class:Material
+b	material.h	/^	float r, g, b;$/;"	m	class:Color
+bb	bbox.h	/^    Vector bb[2];$/;"	m	class:BBox
+bbox	bvh.h	/^	BBox bbox;$/;"	m	class:BVH
+bbox	shape.h	/^	BBox bbox;$/;"	m	class:Shape
+binaryPartition	bvh.cpp	/^int binaryPartition(ShapeVec &shapes, int idx0, int idx1,$/;"	f
+bitmap	scene.h	/^	unsigned char *bitmap;$/;"	m	class:Film
+boundingBox	bvh.h	/^    BBox boundingBox(){ return bbox; }$/;"	f	class:BVH
+boundingBox	shape.h	/^	virtual BBox  boundingBox() { return bbox; }$/;"	f	class:Shape
+boxMax	bbox.h	/^    Vector boxMax() const { return bb[1]; }$/;"	f	class:BBox
+boxMin	bbox.h	/^    Vector boxMin() const { return bb[0]; } $/;"	f	class:BBox
+buildBVH	scene.cpp	/^void Scene::buildBVH() {$/;"	f	class:Scene
+buildBranch	bvh.cpp	/^BVH* BVH::buildBranch(ShapeVec& shapes, int idx0, int idx1, int axis)$/;"	f	class:BVH
+cam_dir	camera.h	/^	Vector cam_dir;$/;"	m	class:Camera
+cam_fovy	camera.h	/^	float cam_fovy;$/;"	m	class:Camera
+cam_pos	camera.h	/^	Point cam_pos;$/;"	m	class:Camera
+cam_up	camera.h	/^	Vector cam_up;$/;"	m	class:Camera
+camera	raytracer.h	/^    Camera* camera;$/;"	m	class:RayTracer
+center	camera.h	/^	Point center; \/\/ should be in world coordinate$/;"	m	class:Camera
+center	shape.h	/^	Point center;$/;"	m	class:Sphere
+clamp	material.h	/^	void clamp() {$/;"	f	class:Color
+col	light.h	/^	Color col;$/;"	m	class:Light
+corner	camera.h	/^	Point corner; \/\/ should be in world coordinate$/;"	m	class:Camera
+cross	geometry.h	/^inline Vector cross (const Vector &v1, const Vector& v2)$/;"	f
+current_material	test.yy.cc	/^Material current_material;$/;"	v
+current_mesh	test.yy.cc	/^Mesh * current_mesh = NULL;$/;"	v
+deg2rad	geometry.h	12;"	d
+det3	geometry.h	/^inline float det3(float a, float b, float c,$/;"	f
+determinate	geometry.h	/^inline float Matrix4x4::determinate() const$/;"	f	class:Matrix4x4
+diffuse	material.h	/^	Color diffuse;$/;"	m	class:Material
+dir	light.h	/^	Vector dir;$/;"	m	class:DirectionalLight
+dir	ray.h	/^    Vector dir;$/;"	m	class:Ray
+dirInv	ray.h	/^	Vector dirInv;$/;"	m	class:Ray
+distance	camera.h	/^	float distance;$/;"	m	class:Camera
+distance	shape.h	/^	float distance;$/;"	m	class:Plane
+emission	material.h	/^	Color emission; \/\/ we do not use it now$/;"	m	class:Material
+film	raytracer.h	/^	Film film;$/;"	m	class:RayTracer
+flex_int16_t	test.flex.cc	/^typedef int16_t flex_int16_t;$/;"	t	file:
+flex_int16_t	test.flex.cc	/^typedef short int flex_int16_t;$/;"	t	file:
+flex_int32_t	test.flex.cc	/^typedef int flex_int32_t;$/;"	t	file:
+flex_int32_t	test.flex.cc	/^typedef int32_t flex_int32_t;$/;"	t	file:
+flex_int8_t	test.flex.cc	/^typedef int8_t flex_int8_t;$/;"	t	file:
+flex_int8_t	test.flex.cc	/^typedef signed char flex_int8_t;$/;"	t	file:
+flex_uint16_t	test.flex.cc	/^typedef uint16_t flex_uint16_t;$/;"	t	file:
+flex_uint16_t	test.flex.cc	/^typedef unsigned short int flex_uint16_t;$/;"	t	file:
+flex_uint32_t	test.flex.cc	/^typedef uint32_t flex_uint32_t;$/;"	t	file:
+flex_uint32_t	test.flex.cc	/^typedef unsigned int flex_uint32_t;$/;"	t	file:
+flex_uint8_t	test.flex.cc	/^typedef uint8_t flex_uint8_t;$/;"	t	file:
+flex_uint8_t	test.flex.cc	/^typedef unsigned char flex_uint8_t; $/;"	t	file:
+g	material.h	/^	float r, g, b;$/;"	m	class:Color
+generateRay	camera.cpp	/^Ray Camera::generateRay(float a, float b)$/;"	f	class:Camera
+getDir	light.h	/^	inline Vector getDir(const Point& p) {$/;"	f	class:DirectionalLight
+getDir	light.h	/^	inline Vector getDir(const Point& p) {$/;"	f	class:PointLight
+height	raytracer.h	/^	int height;$/;"	m	class:RayTracer
+height	scene.h	/^	int width, height;$/;"	m	class:Film
+i	test.yy.cc	/^int i = 0;$/;"	v
+idx	mesh.h	/^	int idx[3];$/;"	m	class:Triangle
+initFromUV	geometry.cpp	/^void ONB::initFromUV(const Vector& u, const Vector& v)$/;"	f	class:ONB
+initFromWV	geometry.cpp	/^void ONB::initFromWV(const Vector& w, const Vector& v)$/;"	f	class:ONB
+input	raytracer.h	/^	string input;$/;"	m	class:RayTracer
+intersect	bbox.cpp	/^bool BBox::intersect(const Ray& r) const $/;"	f	class:BBox
+intersect	bvh.cpp	/^bool BVH::intersect(const Ray& ray, HitRecord &record)$/;"	f	class:BVH
+intersect	mesh.cpp	/^bool Triangle::intersect(const Ray &r, HitRecord &record)$/;"	f	class:Triangle
+intersect	plane.cpp	/^bool Plane::intersect(const Ray& ray, HitRecord& record)$/;"	f	class:Plane
+intersect	shape.h	/^	virtual bool intersect(const Ray&r, HitRecord& record){$/;"	f	class:Shape
+intersect	sphere.cpp	/^bool Sphere::intersect(const Ray& ray, HitRecord& record)$/;"	f	class:Sphere
+left	bvh.h	/^	BVH *left;$/;"	m	class:BVH
+length	geometry.h	/^	float length() const { return sqrtf(lengthSquared()); }$/;"	f	class:Normal
+lengthSquared	geometry.h	/^	float lengthSquared() const { return x*x + y*y + z*z; }$/;"	f	class:Normal
+lights	scene.h	/^	vector<Light*> lights;$/;"	m	class:Scene
+line_num	test.flex.cc	/^int line_num = 0;$/;"	v
+mBVH	scene.h	/^	BVH *mBVH;$/;"	m	class:Scene
+mShape	bvh.h	/^	Shape* mShape;$/;"	m	class:BVH
+mStack	geometry.h	/^	stack<Matrix4x4> mStack;$/;"	m	class:MatrixStack
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f
+mat	geometry.h	/^	float mat[4][4];$/;"	m	class:Matrix4x4
+mate	primitive.h	/^	Material *mate; \/\/ i put it to Shape and do not use Primitive now$/;"	m	class:Primitive
+material	shape.h	/^	Material material;$/;"	m	class:Shape
+max	scene.h	/^inline unsigned char max(unsigned char a, unsigned char b)$/;"	f
+maxdepth	raytracer.h	/^	int maxdepth;$/;"	m	class:RayTracer
+maxvertex	main.cpp	/^int maxvertex  = 0;$/;"	v
+mesh_ptr	mesh.h	/^	Mesh *mesh_ptr;$/;"	m	class:Triangle
+min	scene.h	/^inline unsigned char min(unsigned char a, unsigned char b)$/;"	f
+negPos	ray.h	/^	bool negPos[6];$/;"	m	class:Ray
+normal	shape.h	/^	Vector normal;$/;"	m	class:HitRecord
+normal	shape.h	/^	Vector normal;$/;"	m	class:Plane
+normalize	geometry.h	/^	void normalize() {$/;"	f	class:Normal
+normalize	geometry.h	/^	void normalize() {$/;"	f	class:Vector
+num	test.flex.cc	/^	float num;$/;"	m	union:YYSTYPE	file:
+num	test.yy.cc	/^	float num;$/;"	m	union:YYSTYPE	file:
+num	test.yy.hh	/^	float num;$/;"	m	union:YYSTYPE
+num_verts	mesh.h	/^	int num_verts;$/;"	m	class:Mesh
+num_verts	scene.h	/^	int num_verts;$/;"	m	class:Scene
+obj	shape.h	/^	Shape *obj;$/;"	m	class:HitRecord
+operator *	geometry.h	/^	Matrix4x4 operator* (const Matrix4x4& m) {$/;"	f	class:Matrix4x4
+operator *	geometry.h	/^	Point operator* (const Point& p) {$/;"	f	class:Matrix4x4
+operator *	geometry.h	/^	Vector operator* (const Vector& v) {$/;"	f	class:Matrix4x4
+operator *	geometry.h	/^	Vector operator* (const float f) const {$/;"	f	class:Vector
+operator *	geometry.h	/^	float operator* (const Vector v) const {$/;"	f	class:Vector
+operator *	geometry.h	/^	friend Vector operator* (float s, const Vector &v) {$/;"	f	class:Vector
+operator *	material.h	/^	Color operator* (const Color& col) const {$/;"	f	class:Color
+operator *	material.h	/^	Color operator* (const float s) const {$/;"	f	class:Color
+operator *=	geometry.h	/^	Matrix4x4& operator*= (const Matrix4x4& m) {$/;"	f	class:Matrix4x4
+operator *=	geometry.h	/^	Vector& operator*= (const float f) {$/;"	f	class:Vector
+operator +	geometry.h	/^	Normal operator + (const Normal &n ) const {$/;"	f	class:Normal
+operator +	geometry.h	/^	Point operator + (const Point &p) const {$/;"	f	class:Point
+operator +	geometry.h	/^	Vector operator+(const Vector &v) const {$/;"	f	class:Vector
+operator +	geometry.h	/^inline Vector Vector::operator+(const Point &p) const {$/;"	f	class:Vector
+operator +	material.h	/^	Color operator+ (const Color &col) {$/;"	f	class:Color
+operator +=	material.h	/^	Color& operator+= (const Color& col) {$/;"	f	class:Color
+operator -	geometry.h	/^	Normal operator - (const Normal &n) const {$/;"	f	class:Normal
+operator -	geometry.h	/^	Vector operator - (const Point &p) const {$/;"	f	class:Point
+operator -	geometry.h	/^	Vector operator-() const {$/;"	f	class:Vector
+operator -	geometry.h	/^	Vector operator-(const Vector &v) const {$/;"	f	class:Vector
+operator /	geometry.h	/^	Vector operator\/ (const float f) const {$/;"	f	class:Vector
+operator /=	geometry.h	/^	Vector& operator \/= (const float f) {$/;"	f	class:Vector
+operator []	geometry.h	/^	float* operator[](unsigned int i) {$/;"	f	class:Matrix4x4
+outFilm	scene.h	/^	void outFilm(const char *file_name) {$/;"	f	class:Film
+param_stmt	test.y	/^param_stmt : SIZE NUM NUM$/;"	l
+param_stmt_list	test.y	/^param_stmt_list: param_stmt_list param_stmt { }$/;"	l
+pos	light.h	/^	Point pos;$/;"	m	class:PointLight
+pos	ray.h	/^    Point pos;$/;"	m	class:Ray
+pos	shape.h	/^	Point pos;\/\/ do we need pos ?? $/;"	m	class:HitRecord
+position	shape.h	/^	Point position;$/;"	m	class:Plane
+r	material.h	/^	float r, g, b;$/;"	m	class:Color
+rad2deg	geometry.h	13;"	d
+radius	shape.h	/^	float radius;$/;"	m	class:Sphere
+raytracer	main.cpp	/^RayTracer *raytracer;$/;"	v
+reflect	geometry.h	/^	friend Vector reflect(const Vector& dir, const Vector& normal){$/;"	f	class:Vector
+reflect	material.h	/^	Color reflect;$/;"	m	class:Material
+right	bvh.h	/^	BVH *right;$/;"	m	class:BVH
+scene	raytracer.h	/^	Scene *scene;	$/;"	m	class:RayTracer
+scene_ptr	mesh.h	/^	Scene *scene_ptr;$/;"	m	class:Mesh
+setAmbient	material.h	/^	void setAmbient(const Color a) {$/;"	f	class:Material
+setDiffuse	material.h	/^	void setDiffuse(const Color d) {$/;"	f	class:Material
+setDir	ray.h	/^	void setDir(const Vector &v) {$/;"	f	class:Ray
+setMaterial	shape.h	/^	void setMaterial(const Material &m) {$/;"	f	class:Shape
+setMatrix	shape.h	/^	void setMatrix(const Matrix4x4 &m) {$/;"	f	class:Shape
+setPixel	scene.h	/^	inline void setPixel(int i, int j, Color col) {$/;"	f	class:Film
+setReflect	material.h	/^	void setReflect(const Color r) {$/;"	f	class:Material
+setSpecular	material.h	/^	void setSpecular(const Color s) {$/;"	f	class:Material
+shape	primitive.h	/^	Shape *shape;$/;"	m	class:Primitive
+shapes	scene.h	/^	vector<Shape*> shapes;$/;"	m	class:Scene
+shiness	material.h	/^	float shiness;$/;"	m	class:Material
+short	test.yy.cc	205;"	d	file:
+specular	material.h	/^	Color specular;$/;"	m	class:Material
+str	test.flex.cc	/^	char str[512];$/;"	m	union:YYSTYPE	file:
+str	test.yy.cc	/^	char str[512];$/;"	m	union:YYSTYPE	file:
+str	test.yy.hh	/^	char str[512];$/;"	m	union:YYSTYPE
+surround	bbox.cpp	/^BBox surround(const BBox& b1, const BBox& b2) {$/;"	f
+t	shape.h	/^	float t;$/;"	m	class:HitRecord
+t_min	ray.h	/^    float t_min, t_mx;$/;"	m	class:Ray
+t_mx	ray.h	/^    float t_min, t_mx;$/;"	m	class:Ray
+trace	raytracer.cpp	/^void RayTracer::trace()$/;"	f	class:RayTracer
+transStack	raytracer.h	/^	MatrixStack transStack;$/;"	m	class:RayTracer
+transform	shape.h	/^	Matrix4x4 transform;$/;"	m	class:Shape
+transform_inv	shape.h	/^	Matrix4x4 transform_inv;$/;"	m	class:Shape
+tri_list	test.y	/^tri_list: tri_list TRI NUM NUM NUM$/;"	l
+type	light.h	/^	Type type;$/;"	m	class:Light
+u	geometry.h	/^	Vector u() { return U; }$/;"	f	class:ONB
+u0	camera.h	/^	float u0, u1, v0, v1;$/;"	m	class:Camera
+u1	camera.h	/^	float u0, u1, v0, v1;$/;"	m	class:Camera
+unput	test.flex.cc	186;"	d	file:
+up	camera.h	/^	Vector up;$/;"	m	class:Camera
+updateBoundingBox	shape.h	/^	virtual void updateBoundingBox() {$/;"	f	class:Shape
+updateBoundingBox	sphere.cpp	/^void Sphere::updateBoundingBox()$/;"	f	class:Sphere
+uvw	camera.h	/^	ONB uvw;$/;"	m	class:Camera
+v	geometry.h	/^	Vector v() { return V; }$/;"	f	class:ONB
+v0	camera.h	/^	float u0, u1, v0, v1;$/;"	m	class:Camera
+v1	camera.h	/^	float u0, u1, v0, v1;$/;"	m	class:Camera
+verts	mesh.h	/^	Vec3f* verts;$/;"	m	class:Mesh
+verts	scene.h	/^	Vec3f* verts;	$/;"	m	class:Scene
+w	geometry.h	/^	Vector w() { return W; }$/;"	f	class:ONB
+width	raytracer.h	/^	int width;$/;"	m	class:RayTracer
+width	scene.h	/^	int width, height;$/;"	m	class:Film
+x	geometry.h	/^	float x , y, z;$/;"	m	class:Vector
+x	geometry.h	/^	float x, y , z;$/;"	m	class:Normal
+x	geometry.h	/^	float x, y, z;$/;"	m	class:Point
+x	mesh.cpp	64;"	d	file:
+y	geometry.h	/^	float x , y, z;$/;"	m	class:Vector
+y	geometry.h	/^	float x, y , z;$/;"	m	class:Normal
+y	geometry.h	/^	float x, y, z;$/;"	m	class:Point
+y	mesh.cpp	65;"	d	file:
+yy_accept	test.flex.cc	/^static yyconst flex_int16_t yy_accept[173] =$/;"	v	file:
+yy_at_bol	test.flex.cc	/^	int yy_at_bol;$/;"	m	struct:yy_buffer_state	file:
+yy_base	test.flex.cc	/^static yyconst flex_int16_t yy_base[175] =$/;"	v	file:
+yy_bs_column	test.flex.cc	/^    int yy_bs_column; \/**< The column count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_bs_lineno	test.flex.cc	/^    int yy_bs_lineno; \/**< The line count. *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_pos	test.flex.cc	/^	char *yy_buf_pos;		\/* current position in input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_buf_size	test.flex.cc	/^	yy_size_t yy_buf_size;$/;"	m	struct:yy_buffer_state	file:
+yy_buffer_stack	test.flex.cc	/^static YY_BUFFER_STATE * yy_buffer_stack = 0; \/**< Stack as an array. *\/$/;"	v	file:
+yy_buffer_stack_max	test.flex.cc	/^static size_t yy_buffer_stack_max = 0; \/**< capacity of stack. *\/$/;"	v	file:
+yy_buffer_stack_top	test.flex.cc	/^static size_t yy_buffer_stack_top = 0; \/**< index of top of stack. *\/$/;"	v	file:
+yy_buffer_state	test.flex.cc	/^struct yy_buffer_state$/;"	s	file:
+yy_buffer_status	test.flex.cc	/^	int yy_buffer_status;$/;"	m	struct:yy_buffer_state	file:
+yy_c_buf_p	test.flex.cc	/^static char *yy_c_buf_p = (char *) 0;$/;"	v	file:
+yy_ch_buf	test.flex.cc	/^	char *yy_ch_buf;		\/* input buffer *\/$/;"	m	struct:yy_buffer_state	file:
+yy_chk	test.flex.cc	/^static yyconst flex_int16_t yy_chk[223] =$/;"	v	file:
+yy_create_buffer	test.flex.cc	/^    YY_BUFFER_STATE yy_create_buffer  (FILE * file, int  size )$/;"	f
+yy_def	test.flex.cc	/^static yyconst flex_int16_t yy_def[175] =$/;"	v	file:
+yy_delete_buffer	test.flex.cc	/^    void yy_delete_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_did_buffer_switch_on_eof	test.flex.cc	/^static int yy_did_buffer_switch_on_eof;$/;"	v	file:
+yy_ec	test.flex.cc	/^static yyconst flex_int32_t yy_ec[256] =$/;"	v	file:
+yy_fatal_error	test.flex.cc	/^static void yy_fatal_error (yyconst char* msg )$/;"	f	file:
+yy_fill_buffer	test.flex.cc	/^	int yy_fill_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_flex_debug	test.flex.cc	/^int yy_flex_debug = 0;$/;"	v
+yy_flex_strlen	test.flex.cc	/^static int yy_flex_strlen (yyconst char * s )$/;"	f	file:
+yy_flex_strncpy	test.flex.cc	/^static void yy_flex_strncpy (char* s1, yyconst char * s2, int n )$/;"	f	file:
+yy_flush_buffer	test.flex.cc	/^    void yy_flush_buffer (YY_BUFFER_STATE  b )$/;"	f
+yy_get_next_buffer	test.flex.cc	/^static int yy_get_next_buffer (void)$/;"	f	file:
+yy_get_previous_state	test.flex.cc	/^    static yy_state_type yy_get_previous_state (void)$/;"	f	file:
+yy_hold_char	test.flex.cc	/^static char yy_hold_char;$/;"	v	file:
+yy_init	test.flex.cc	/^static int yy_init = 0;		\/* whether we need to initialize *\/$/;"	v	file:
+yy_init_buffer	test.flex.cc	/^    static void yy_init_buffer  (YY_BUFFER_STATE  b, FILE * file )$/;"	f	file:
+yy_init_globals	test.flex.cc	/^static int yy_init_globals (void)$/;"	f	file:
+yy_input_file	test.flex.cc	/^	FILE *yy_input_file;$/;"	m	struct:yy_buffer_state	file:
+yy_is_interactive	test.flex.cc	/^	int yy_is_interactive;$/;"	m	struct:yy_buffer_state	file:
+yy_is_our_buffer	test.flex.cc	/^	int yy_is_our_buffer;$/;"	m	struct:yy_buffer_state	file:
+yy_last_accepting_cpos	test.flex.cc	/^static char *yy_last_accepting_cpos;$/;"	v	file:
+yy_last_accepting_state	test.flex.cc	/^static yy_state_type yy_last_accepting_state;$/;"	v	file:
+yy_load_buffer_state	test.flex.cc	/^static void yy_load_buffer_state  (void)$/;"	f	file:
+yy_meta	test.flex.cc	/^static yyconst flex_int32_t yy_meta[30] =$/;"	v	file:
+yy_n_chars	test.flex.cc	/^	yy_size_t yy_n_chars;$/;"	m	struct:yy_buffer_state	file:
+yy_n_chars	test.flex.cc	/^static yy_size_t yy_n_chars;		\/* number of characters read into yy_ch_buf *\/$/;"	v	file:
+yy_new_buffer	test.flex.cc	310;"	d	file:
+yy_nxt	test.flex.cc	/^	flex_int32_t yy_nxt;$/;"	m	struct:yy_trans_info	file:
+yy_nxt	test.flex.cc	/^static yyconst flex_int16_t yy_nxt[223] =$/;"	v	file:
+yy_reduce_print	test.yy.cc	/^yy_reduce_print (YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_scan_buffer	test.flex.cc	/^YY_BUFFER_STATE yy_scan_buffer  (char * base, yy_size_t  size )$/;"	f
+yy_scan_bytes	test.flex.cc	/^YY_BUFFER_STATE yy_scan_bytes  (yyconst char * yybytes, yy_size_t  _yybytes_len )$/;"	f
+yy_scan_string	test.flex.cc	/^YY_BUFFER_STATE yy_scan_string (yyconst char * yystr )$/;"	f
+yy_set_bol	test.flex.cc	322;"	d	file:
+yy_set_interactive	test.flex.cc	312;"	d	file:
+yy_size_t	test.flex.cc	/^typedef size_t yy_size_t;$/;"	t	file:
+yy_stack_print	test.yy.cc	/^yy_stack_print (yytype_int16 *yybottom, yytype_int16 *yytop)$/;"	f	file:
+yy_start	test.flex.cc	/^static int yy_start = 0;	\/* start state number *\/$/;"	v	file:
+yy_state_type	test.flex.cc	/^typedef int yy_state_type;$/;"	t	file:
+yy_switch_to_buffer	test.flex.cc	/^    void yy_switch_to_buffer  (YY_BUFFER_STATE  new_buffer )$/;"	f
+yy_symbol_print	test.yy.cc	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	test.yy.cc	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_trans_info	test.flex.cc	/^struct yy_trans_info$/;"	s	file:
+yy_try_NUL_trans	test.flex.cc	/^    static yy_state_type yy_try_NUL_trans  (yy_state_type yy_current_state )$/;"	f	file:
+yy_verify	test.flex.cc	/^	flex_int32_t yy_verify;$/;"	m	struct:yy_trans_info	file:
+yyalloc	test.flex.cc	/^void *yyalloc (yy_size_t  size )$/;"	f
+yyalloc	test.yy.cc	/^union yyalloc$/;"	u	file:
+yychar	test.yy.cc	/^int yychar;$/;"	v
+yycheck	test.yy.cc	/^static const yytype_int8 yycheck[] =$/;"	v	file:
+yyclearin	test.yy.cc	656;"	d	file:
+yyconst	test.flex.cc	107;"	d	file:
+yyconst	test.flex.cc	109;"	d	file:
+yydebug	test.yy.cc	/^int yydebug;$/;"	v
+yydefact	test.yy.cc	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	test.yy.cc	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydestruct	test.yy.cc	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yyensure_buffer_stack	test.flex.cc	/^static void yyensure_buffer_stack (void)$/;"	f	file:
+yyerrok	test.yy.cc	655;"	d	file:
+yyerror	test.yy.cc	/^void  yyerror(string s)$/;"	f
+yyfree	test.flex.cc	/^void yyfree (void * ptr )$/;"	f
+yyget_debug	test.flex.cc	/^int yyget_debug  (void)$/;"	f
+yyget_in	test.flex.cc	/^FILE *yyget_in  (void)$/;"	f
+yyget_leng	test.flex.cc	/^yy_size_t yyget_leng  (void)$/;"	f
+yyget_lineno	test.flex.cc	/^int yyget_lineno  (void)$/;"	f
+yyget_out	test.flex.cc	/^FILE *yyget_out  (void)$/;"	f
+yyget_text	test.flex.cc	/^char *yyget_text  (void)$/;"	f
+yyin	test.flex.cc	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yyinput	test.flex.cc	/^    static int yyinput (void)$/;"	f	file:
+yyleng	test.flex.cc	/^yy_size_t yyleng;$/;"	v
+yyless	test.flex.cc	173;"	d	file:
+yyless	test.flex.cc	1788;"	d	file:
+yyless	test.flex.cc	1789;"	d	file:
+yylex_destroy	test.flex.cc	/^int yylex_destroy  (void)$/;"	f
+yylineno	test.flex.cc	/^int yylineno = 1;$/;"	v
+yylval	test.yy.cc	/^YYSTYPE yylval;$/;"	v
+yymore	test.flex.cc	549;"	d	file:
+yynerrs	test.yy.cc	/^int yynerrs;$/;"	v
+yyout	test.flex.cc	/^FILE *yyin = (FILE *) 0, *yyout = (FILE *) 0;$/;"	v
+yypact	test.yy.cc	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact_value_is_default	test.yy.cc	617;"	d	file:
+yyparse	test.yy.cc	/^yyparse (void *YYPARSE_PARAM)$/;"	f
+yypgoto	test.yy.cc	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yypop_buffer_state	test.flex.cc	/^void yypop_buffer_state (void)$/;"	f
+yyprhs	test.yy.cc	/^static const yytype_uint8 yyprhs[] =$/;"	v	file:
+yypush_buffer_state	test.flex.cc	/^void yypush_buffer_state (YY_BUFFER_STATE new_buffer )$/;"	f
+yyr1	test.yy.cc	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr2	test.yy.cc	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyrealloc	test.flex.cc	/^void *yyrealloc  (void * ptr, yy_size_t  size )$/;"	f
+yyrestart	test.flex.cc	/^    void yyrestart  (FILE * input_file )$/;"	f
+yyrhs	test.yy.cc	/^static const yytype_int8 yyrhs[] =$/;"	v	file:
+yyrline	test.yy.cc	/^static const yytype_uint8 yyrline[] =$/;"	v	file:
+yyset_debug	test.flex.cc	/^void yyset_debug (int  bdebug )$/;"	f
+yyset_in	test.flex.cc	/^void yyset_in (FILE *  in_str )$/;"	f
+yyset_lineno	test.flex.cc	/^void yyset_lineno (int  line_number )$/;"	f
+yyset_out	test.flex.cc	/^void yyset_out (FILE *  out_str )$/;"	f
+yyss_alloc	test.yy.cc	/^  yytype_int16 yyss_alloc;$/;"	m	union:yyalloc	file:
+yystos	test.yy.cc	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	test.yy.cc	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	test.yy.cc	956;"	d	file:
+yystrlen	test.yy.cc	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	test.yy.cc	933;"	d	file:
+yystype	test.flex.cc	2075;"	d	file:
+yystype	test.yy.cc	177;"	d	file:
+yystype	test.yy.hh	91;"	d
+yysyntax_error	test.yy.cc	/^yysyntax_error (YYSIZE_T *yymsg_alloc, char **yymsg,$/;"	f	file:
+yytable	test.yy.cc	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable_value_is_error	test.yy.cc	620;"	d	file:
+yyterminate	test.flex.cc	698;"	d	file:
+yytext	test.flex.cc	/^char *yytext;$/;"	v
+yytext_ptr	test.flex.cc	347;"	d	file:
+yytname	test.yy.cc	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	test.yy.cc	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	test.flex.cc	/^   enum yytokentype {$/;"	g	file:
+yytokentype	test.yy.cc	/^   enum yytokentype {$/;"	g	file:
+yytokentype	test.yy.hh	/^   enum yytokentype {$/;"	g
+yytoknum	test.yy.cc	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytranslate	test.yy.cc	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	test.yy.cc	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	test.yy.cc	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	test.yy.cc	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	test.yy.cc	/^typedef short int yytype_int8;$/;"	t	file:
+yytype_int8	test.yy.cc	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	test.yy.cc	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	test.yy.cc	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	test.yy.cc	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	test.yy.cc	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyunput	test.flex.cc	/^    static void yyunput (int c, register char * yy_bp )$/;"	f	file:
+yyvs_alloc	test.yy.cc	/^  YYSTYPE yyvs_alloc;$/;"	m	union:yyalloc	file:
+z	geometry.h	/^	float x , y, z;$/;"	m	class:Vector
+z	geometry.h	/^	float x, y , z;$/;"	m	class:Normal
+z	geometry.h	/^	float x, y, z;$/;"	m	class:Point
+z	mesh.cpp	66;"	d	file:
+~Mesh	mesh.h	/^	~Mesh() {$/;"	f	class:Mesh
+~Scene	scene.h	/^	~Scene()  {$/;"	f	class:Scene

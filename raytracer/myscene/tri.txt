@@ -1,0 +1,24 @@
+size 640 480
+
+camera 0 -4 4 0 -1 0 0 1 1 45
+
+
+
+
+maxverts 4
+
+vertex -1 -1 -1
+vertex +1 -1 -1
+vertex +1 +1 -1
+vertex -1 +1 -1
+
+
+
+ambient .7 .7 1
+pushTransform
+translate 1 -2 0
+scale 1 2 1
+tri 0 1 2
+tri 0 2 3
+
+popTransform

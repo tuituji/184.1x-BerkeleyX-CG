@@ -1,0 +1,42 @@
+#Makefile
+SRCDIR = ./
+
+SRCS =  $(wildcard $(SRCDIR)/*.cpp)
+SRCS += $(SRCDIR)/test.flex.cc  $(SRCDIR)/test.yy.cc
+
+OBJS = $(SRCS:.cpp=.o)
+
+PROG = raytracer
+
+CCFLAGS =  -g3 -Wall # -O3 
+LDFLAGS = -ll
+CC 	= g++
+
+all: $(SRCS) $(PROG)
+
+
+$(PROG): $(OBJS)
+	$(CC) $(CCFLAGS) $(OBJS) -o $@ $(LDFLAGS)
+
+
+.cpp.o: 
+	$(CC) $(CCFLAGS) $< -c -o $@ $(INCFLAGS)
+
+$(SRCDIR)/test.yy.cc: $(SRCDIR)/test.y
+	@echo "bisoning"
+	bison -d -o $@ $^
+
+$(SRCDIR)/test.yy.hh: $(SRCDIR)/test.yy.cc
+
+$(SRCDIR)/test.flex.cc: $(SRCDIR)/test.l $(SRCDIR)/test.yy.hh
+	@echo "flexing"
+	flex -o $@ $^ 
+
+depend:
+	makedepend $(INCFLAGS) -Y $(SRCS)
+
+.PHONY: clean
+clean:
+	rm -f $(OBJS) $(PROG) 
+	rm -f $(SRCDIR)/test.yy.cc $(SRCDIR)/test.yy.hh $(SRCDIR)/test.flex.cc
+
